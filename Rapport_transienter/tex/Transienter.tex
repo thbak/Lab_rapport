@@ -46,7 +46,7 @@ Solving this with the boundary condition \( U_C(0) = 0 \) we get
   U_C = \mathcal{E} \left( 1 - e^{- \frac{1}{RC} t} \right)
 \end{equation}
 
-\subsection{Alternating current}
+\subsection*{Alternating current}
 
 For a RC-circuit as in Fig.\ref{fig:setup} the following apply according to Kirchhoffs laws
 
@@ -95,18 +95,19 @@ Furthermore we can anticipate a behaviour for \( \phi \) as depicted in Fig.\ref
 \end{figure}
 
 \begin{figure}[!ht]
+  \caption{}
   \centering
   \begin{subfigure}[b]{0.4\textwidth}
       \includegraphics[width=\textwidth]{../img/g_af_omega.png}
       \caption{\( g \) as a function of \( \omega \)}
-      \label{fig:g_af_omega}
+      \label{fig:phi_af_omega}
   \end{subfigure}
   ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
     %(or a blank line to force the subfigure onto a new line)
   \begin{subfigure}[b]{0.4\textwidth}
       \includegraphics[width=\textwidth]{../img/phi_af_wRC.png}
       \caption{\( \phi \) as a function of \( \omega R C \)}
-      \label{fig:phi_af_omega}
+      \label{fig:g_af_omega}
   \end{subfigure}
   \caption{Scaling factor and \( \phi \) for the high pass filter}
 \end{figure}

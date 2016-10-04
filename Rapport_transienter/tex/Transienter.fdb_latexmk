@@ -1,16 +1,17 @@
 # Fdb version 3
-["biber Transienter"] 1475419170 "Transienter.bcf" "Transienter.bbl" "Transienter" 1475438241
-  "Transienter.bcf" 1475438240 100624 a020044e828c4fde047452287d5c58f1 ""
+["biber Transienter"] 1475419170 "Transienter.bcf" "Transienter.bbl" "Transienter" 1475608221
+  "Transienter.bcf" 1475606339 100624 a020044e828c4fde047452287d5c58f1 ""
   (generated)
-  "Transienter.blg"
   "Transienter.bbl"
-["pdflatex"] 1475438238 "Transienter.tex" "Transienter.pdf" "Transienter" 1475438241
+  "Transienter.blg"
+["pdflatex"] 1475606336 "Transienter.tex" "Transienter.pdf" "Transienter" 1475608221
   "../img/VinVCVR.png" 1475419798 25074 b998abba3ca036da3e04ffcef437a72b ""
   "../img/VinVudafphi.png" 1475429148 21712 d88373def44990d74adca8c7ffb9200b ""
   "../img/g_af_omega.png" 1475413704 15268 68b3f455ca36ebe310741ccfe847af3e ""
   "../img/phi_af_wRC.png" 1475414080 13922 d02fba76d8fcd65bc9665bf511dcaa48 ""
   "../img/setup.png" 1475333799 28670 0627e1b7fb9cdaefa3580212fbd2fd75 ""
-  "../main/main.tex" 1475165567 254 c24c1c77c635d488760011ffe5923f21 ""
+  "../img/setup2.png" 1475600521 30933 c43785794e446ab4973aa9c331cfec0a ""
+  "../main/main.tex" 1475438847 255 97f3d3dbbdcfc1cfbf2d14351b2985d8 ""
   "../main/style.sty" 1458261071 2884 53cea92bfc7711f880f476f7b6ad7466 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -177,13 +178,13 @@
   "/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1432479641 1764542 91654ba72bdb667e84ea24f076ae16d8 ""
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1441121803 3849858 10bcfa49b331b9b205d7158d1b6c56a5 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
-  "Transienter.aux" 1475438240 2140 8cdccf83914752431e8c80059f0acf7c ""
+  "Transienter.aux" 1475606339 2688 0efeda23e7b9a43e644a67ecdd73e1a2 ""
   "Transienter.bbl" 1475419171 466 09eb4fb3e5c239471bbf545cb1159669 "biber Transienter"
-  "Transienter.run.xml" 1475438240 2361 aa439abeaf4045d1f0afe1533f97b881 ""
-  "Transienter.tex" 1475438234 9501 2365c169f433d4eed7d9288cd3dc129e ""
+  "Transienter.run.xml" 1475606339 2361 aa439abeaf4045d1f0afe1533f97b881 ""
+  "Transienter.tex" 1475606331 11594 bc77672ec826f5514804556b914afc85 ""
   (generated)
-  "Transienter.bcf"
   "Transienter.aux"
-  "Transienter.run.xml"
+  "Transienter.bcf"
   "Transienter.pdf"
   "Transienter.log"
+  "Transienter.run.xml"

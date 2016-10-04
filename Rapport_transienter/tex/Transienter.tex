@@ -88,10 +88,10 @@ We can anticipate a behavior for \( g \) as a function of \( \omega \) as depict
 Furthermore we can anticipate a behaviour for \( \phi \) as depicted in Fig.\ref{fig:phi_af_omega}
 
 \begin{figure}[!ht]
-  \caption{Setup for high pass filter}
   \centering
-    \includegraphics[width=0.5\textwidth]{../img/setup.png}
+    \includegraphics[width=0.7\textwidth]{../img/setup.png}
     \label{fig:setup}
+    \caption{Setup for high pass filter}
 \end{figure}
 
 \begin{figure}[!ht]
@@ -108,6 +108,7 @@ Furthermore we can anticipate a behaviour for \( \phi \) as depicted in Fig.\ref
       \caption{\( \phi \) as a function of \( \omega R C \)}
       \label{fig:phi_af_omega}
   \end{subfigure}
+  \caption{Scaling factor and \( \phi \) for the high pass filter}
 \end{figure}
 
 \section*{Setup}
@@ -117,15 +118,29 @@ With the oscilloscope, we are measuring the voltage drop over the resistor.
 
 We are using a resistor with resistance \( R = 10 \si{\kilo\ohm} \) and a capacitor with capacitance \( C = 47 \si{\nano\farad} \).
 
-\section*{Experiment 2 -- High-pass-filter}
+\section{Experiments}
 
-\subsection*{Square wave}
+For the following experiments we make use of a resistor and capacitor with the characteristics listed in Table.\ref{components}.
+
+\begin{table}[]
+\centering
+\caption{Components used in the experiment}
+\label{components}
+\begin{tabular}{|l|l|l|}
+\hline
+          & Value                         & Uncertainty                  \\ \hline
+Resistor  & \( 9.947 \si{\kilo\ohm} \)  & \( 0.001 \si{\kilo\ohm} \) \\ \hline
+Capacitor & \( 47.2 \si{\nano\farad} \) & \( 0.1 \si{\nano\farad} \) \\ \hline
+\end{tabular}
+\end{table}
+
+\subsection*{High pass and low pass filter, square wave}
 
 We know that the capacitor will be charged with time, so we should be able to find a frequency of the square wave where the capacitor is almost fully charged and fully discharged within the time of the pulse width.
 As the capacitor is charged, the voltage drop over the resistor will increase, and decrease as the capacitor is discharged.
 When a useful frequency and pulse width is determined, we get a good representation of the curve of the voltage drop over the resistor or capacitor, depending on the current system configuration.
 In Fig.\ref{fig:VinVCVR} we see the input voltage and the corresponding voltage drop over the capacitor and resistor.
-Please note that the configuration of the setup is not the same when measuring the two independent voltage drops.
+\( V_C \) represents the voltage drop over the capacitor, and \( V_R \) the voltage drop over the resistor.
 
 \begin{figure}[!ht]
   \caption{Setup for high pass filter}
@@ -134,35 +149,49 @@ Please note that the configuration of the setup is not the same when measuring t
     \label{fig:VinVCVR}
 \end{figure}
 
-\subsection*{Alternating current}
+\subsection*{High pass filter, sine wave}
 
 We replace the pulse generator with a function generator to produce an alternating current in the form of a sine wave.
-The frequency is set as close as possible to \(  f = \omega_0 / 2 \pi = 340.4 \si{\hertz} \) and the amplitude adjusted so that the input voltage measured on the Picoscope is \( 1 \si{\volt} \) peak-to-peak.
+The frequency is set as close as possible to \(  f = \omega_0 / 2 \pi = 340.4 \si{\hertz} \), where \( omega_0 \) is the angular frequency for the resonance, and the amplitude adjusted so that the input voltage measured on the Picoscope is \( 1 \si{\volt} \) peak-to-peak.
 
 We then alternate the frequency from around \( 100 \si{\hertz} \) to \( 1000 \si{\hertz} \) and measure the output voltage and phase shift.
-See Fig.\ref{data} for measurements made directly in the software for the Picoscope.
+For each frequency we save the data in a txt file for later processing.
+% See Fig.\ref{data} for measurements made directly in the software for the Picoscope.
 
-\begin{table}[!h]
-\centering
-\caption{Data from experiment 2}
-\label{data}
-\begin{tabular}{|l|l|l|l|}
-\hline
-Frequency input [Hz]  & Peak to peak input [V]  & Peak to peak output [V]  & Phase shift [ms] \\
-\(\pm 5 \cdot 10^{-2}Hz\) & \(\pm 5\cdot 10^{-5}V\) & \(\pm 5 \cdot 10^{-5}V\) & \(\pm 5\cdot 10^{-4}ms\) \\ \hline
-108.0 & 1.040 & 0.4365 & 8.055 \\ \hline
-201.1 & 1.048 & 0.5952 & 4.226 \\ \hline
-300.5 & 1.040 & 0.7698 & 2.888 \\ \hline
-339.4 & 1.040 & 0.8095 & 2.565 \\ \hline
-400.5 & 1.040 & 0.8571 & 2.212 \\ \hline
-500.6 & 1.048 & 0.9571 & 1.806 \\ \hline
-599.4 & 1.040 & 0.9474 & 1.543 \\ \hline
-699.0 & 1.048 & 1.0050 & 1.332 \\ \hline
-901.1 & 1.049 & 1.0350 & 1.050 \\ \hline
-999.9 & 1.048 & 1.0550 & 0.958 \\ \hline
-\end{tabular}
-\end{table}
-%%
+% \begin{table}[!h]
+% \centering
+% \caption{Data from high pass filter, sine wave}
+% \label{data}
+% \begin{tabular}{|l|l|l|l|}
+% \hline
+% Frequency input [Hz]  & Peak to peak input [V]  & Peak to peak output [V]  & Phase shift [ms] \\
+% \(\pm 5 \cdot 10^{-2}Hz\) & \(\pm 5\cdot 10^{-5}V\) & \(\pm 5 \cdot 10^{-5}V\) & \(\pm 5\cdot 10^{-4}ms\) \\ \hline
+% 108.0 & 1.040 & 0.4365 & 8.055 \\ \hline
+% 201.1 & 1.048 & 0.5952 & 4.226 \\ \hline
+% 300.5 & 1.040 & 0.7698 & 2.888 \\ \hline
+% 339.4 & 1.040 & 0.8095 & 2.565 \\ \hline
+% 400.5 & 1.040 & 0.8571 & 2.212 \\ \hline
+% 500.6 & 1.048 & 0.9571 & 1.806 \\ \hline
+% 599.4 & 1.040 & 0.9474 & 1.543 \\ \hline
+% 699.0 & 1.048 & 1.0050 & 1.332 \\ \hline
+% 901.1 & 1.049 & 1.0350 & 1.050 \\ \hline
+% 999.9 & 1.048 & 1.0550 & 0.958 \\ \hline
+% \end{tabular}
+% \end{table}
+% %%
+
+\subsection{Low pass filter, sine wave}
+
+For the last part of the experiment, we switch the capacitor and resistor and create a low pass filter, see Fig.\ref{fig:setup2}.
+
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[width=0.7\textwidth]{../img/setup2.png}
+    \label{fig:setup2}
+    \caption{Setup for low pass filter}
+\end{figure}
+
+We perform the same measurements for the low pass filter, although the span for the frequencies is adjusted to get a useful representation of the behaviour of the circuit.
 
 \section{Data processing}
 
@@ -177,16 +206,18 @@ To determine the time constant \( RC \) we fit the measured time dependent volta
 \begin{tabular}{|l|l|l|}
 \hline
              & \( \tau = RC\) [s]       & Uncertainty [s]                         \\ \hline
-Theoretical  & \( 4.68 \cdot 10^{-4} \) &                                         \\ \hline
+Theoretical  & \( 4.70 \cdot 10^{-4} \) &                                         \\ \hline
 Experimental & \( 4.3 \cdot 10^{-4} \)  & \( \pm 0.4 \cdot 10^{-4} \)             \\ \hline
 Difference   & \( 0.4 \cdot 10^{-4} \)  &                                         \\ \hline
 \end{tabular}
 \end{table}
 
+FIGUR MED FIT OG PARAMETRE
+
 \subsection*{Alternating current}
 
 We want to check the scaling factor \( g \) by plotting the output voltage as a function of \( \omega \).
-Since the fit is an exponential function and the theoretically derived \( g \) is in another form, fitting an exponential curve to the measured data will make comparison difficult. So  we will plot the measured output voltage againt \( g \cdot V_{in} \) and do a \( \chi^2 \) test to determine whether or not the measured values are within a acceptable range of the theory.
+Since the fit is an exponential function and the theoretically derived \( g \) is in another form, fitting an exponential curve to the measured data will make comparison difficult. So we will plot the measured output voltage againt the theoretical \( g \cdot V_{in} \), \( V_{in} \) begin the experimental value, and do a \( \chi^2 \) test to determine whether or not the measured values are within a acceptable range of the theory.
 We arrive at the results in Table.CHI.I.ANDEN.FOR.G with a visual representation in Fig.\ref{fig:VinVudafphi}
 
 \begin{figure}[!ht]
@@ -204,6 +235,11 @@ The results are presented in Table.CHI.I.ANDEN.FOR and in Fig.PLOT.AF.PHI.MOD.TH
 
 The measurements have very limited uncertainties since the digital oscilloscope used is very precise.
 In our calculations we have estimated the wires and contacts to be without any resistance which is not entirely correct.
+As some plots obviously points out, many measurements are just below the theoretical value.
+We estimate that we could probably hit the theoretical values even better, if we introduces an extra resistance representing the resistance in the wires, switches and so on.
+Furthermore, the Picoscope is connected in parallel and has an internal resistance.
+Although this resistance is far greater than for the rest of the circuit, some current will still run through it.
+In our calculations all current runs through the resistor and capacitor.
 
 \section{Conclusion}
 
@@ -213,6 +249,6 @@ NOT FINISHED
 
 \section{References}
 
-Text
+Taylor, J.R. (1997) An introduction to error analysis: The study of uncertainties in physical measurements. 2nd edn. United States: University Science Books,U.S.
 
 \end{document}

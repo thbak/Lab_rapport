@@ -1,4 +1,4 @@
-PWD /Users/thorstenbaek/Library/Mobile Documents/com~apple~CloudDocs/Uni/git/TBRepo/EM2/Lab_rapport/Rapport_Lorentz/tex
+PWD /Users/thorstenbaek/Library/Mobile Documents/com~apple~CloudDocs/Uni/git/TBRepo/EM2/Lab_rapport/Rapport_transienter/tex
 INPUT /usr/local/texlive/2015/texmf.cnf
 INPUT /usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -292,6 +292,7 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/mathpazo/zplmb7t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/mathpazo/zplmb7t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8t.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8t.tfm
 OUTPUT Transienter.pdf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
@@ -305,6 +306,8 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/public/mathpazo/zplmr7y.vf
@@ -343,12 +346,12 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/mathpazo/zplmb7m.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/mathpazo/zplmb7y.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/mathpazo/zplmb7t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm
+INPUT ../img/setup.png
+INPUT ../img/setup.png
+INPUT ../img/setup.png
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8t.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplri8t.tfm
-INPUT ../img/setup.png
-INPUT ../img/setup.png
-INPUT ../img/setup.png
 INPUT ../img/g_af_omega.png
 INPUT ../img/g_af_omega.png
 INPUT ../img/g_af_omega.png
@@ -389,9 +392,6 @@ INPUT ../img/phi_af_wRC.png
 INPUT ../img/phi_af_wRC.png
 INPUT ../img/phi_af_wRC.png
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm
-INPUT ../img/VinVCVR.png
-INPUT ../img/VinVCVR.png
-INPUT ../img/VinVCVR.png
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplr8t.vf
@@ -401,12 +401,18 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT ../img/VinVudafphi.png
-INPUT ../img/VinVudafphi.png
-INPUT ../img/VinVudafphi.png
+INPUT ../img/VinVCVR.png
+INPUT ../img/VinVCVR.png
+INPUT ../img/VinVCVR.png
+INPUT ../img/setup2.png
+INPUT ../img/setup2.png
+INPUT ../img/setup2.png
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT ../img/VinVudafphi.png
+INPUT ../img/VinVudafphi.png
+INPUT ../img/VinVudafphi.png
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm

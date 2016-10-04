@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.1)  2 OCT 2016 21:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.1)  4 OCT 2016 20:38
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2312,16 +2312,32 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 13.
- [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 91.
- <../img/setup.png, id=13, 1053.9375pt x 511.9125pt>
+
+Package caption Warning: \label without proper \caption on input line 93.
+See the caption package documentation for explanation.
+
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 18.
+
+LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 18.
+
+
+Package caption Warning: \label without proper \caption on input line 93.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 51.
+
+[1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] <../img/setup.png, id=13, 1053.9375pt x 511.9125pt>
 File: ../img/setup.png Graphic file (type png)
  <use ../img/setup.png>
-Package pdftex.def Info: ../img/setup.png used on input line 93.
-(pdftex.def)             Requested size: 220.50887pt x 107.09862pt.
+Package pdftex.def Info: ../img/setup.png used on input line 92.
+(pdftex.def)             Requested size: 308.71106pt x 149.94275pt.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 94.
  <../img/g_af_omega.png, id=15, 421.575pt x 316.18124pt>
 File: ../img/g_af_omega.png Graphic file (type png)
  <use ../img/g_af_omega.png>
@@ -2344,45 +2360,69 @@ File: ../img/phi_af_wRC.png Graphic file (type png)
  <use ../img/phi_af_wRC.png>
 Package pdftex.def Info: ../img/phi_af_wRC.png used on input line 107.
 (pdftex.def)             Requested size: 176.40439pt x 132.3031pt.
- [2] <../img/VinVCVR.png, id=21, 421.575pt x 316.18124pt>
-File: ../img/VinVCVR.png Graphic file (type png)
- <use ../img/VinVCVR.png>
-Package pdftex.def Info: ../img/VinVCVR.png used on input line 133.
-(pdftex.def)             Requested size: 308.71106pt x 231.53888pt.
- [3 <../img/setup.png> <../img/g_af_omega.png (PNG copy)> <../img/phi_af_wRC.png (PNG copy)>]
-Overfull \hbox (53.37305pt too wide) in paragraph at lines 149--164
- [][] 
- []
+ [2]
+
+Package caption Warning: \label without proper \caption on input line 93.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:setup' on page 3 undefined on input line 116.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 173.
+               Default added (so using `tbp') on input line 125.
 
-[4 <../img/VinVCVR.png (PNG copy)>] <../img/VinVudafphi.png, id=29, 421.575pt x 316.18124pt>
+[3 <../img/setup.png> <../img/g_af_omega.png (PNG copy)> <../img/phi_af_wRC.png (PNG copy)>] <../img/VinVCVR.png, id=25, 421.575pt x 316.18124pt>
+File: ../img/VinVCVR.png Graphic file (type png)
+ <use ../img/VinVCVR.png>
+Package pdftex.def Info: ../img/VinVCVR.png used on input line 148.
+(pdftex.def)             Requested size: 308.71106pt x 231.53888pt.
+
+
+Package caption Warning: \label without proper \caption on input line 190.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:setup2' on page 4 undefined on input line 185.
+
+<../img/setup2.png, id=26, 1053.9375pt x 511.9125pt>
+File: ../img/setup2.png Graphic file (type png)
+ <use ../img/setup2.png>
+Package pdftex.def Info: ../img/setup2.png used on input line 189.
+(pdftex.def)             Requested size: 308.71106pt x 149.94275pt.
+ [4 <../img/VinVCVR.png (PNG copy)>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 202.
+
+[5 <../img/setup2.png>] <../img/VinVudafphi.png, id=34, 421.575pt x 316.18124pt>
 File: ../img/VinVudafphi.png Graphic file (type png)
  <use ../img/VinVudafphi.png>
-Package pdftex.def Info: ../img/VinVudafphi.png used on input line 195.
+Package pdftex.def Info: ../img/VinVudafphi.png used on input line 226.
 (pdftex.def)             Requested size: 308.71106pt x 231.53888pt.
- [5 <../img/VinVudafphi.png (PNG copy)>] 
+ [6 <../img/VinVudafphi.png (PNG copy)>] 
 AED: lastpage setting LastPage
-[6] (./Transienter.aux)
+[7] (./Transienter.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'Transienter.run.xml'.
 \openout1 = `Transienter.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23824 strings out of 493089
- 439071 string characters out of 6134843
- 832964 words of memory out of 5000000
- 26938 multiletter control sequences out of 15000+600000
- 56195 words of font info for 139 fonts, out of 8000000 for 9000
+ 23833 strings out of 493089
+ 439219 string characters out of 6134843
+ 833034 words of memory out of 5000000
+ 26945 multiletter control sequences out of 15000+600000
+ 57644 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,12n,47p,10433b,1419s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 61i,20n,47p,10433b,1425s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Transienter.pdf (6 pages, 201172 bytes).
+Output written on Transienter.pdf (7 pages, 230476 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 70 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

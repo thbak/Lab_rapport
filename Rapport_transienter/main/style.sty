@@ -1,0 +1,93 @@
+% % % % % % % % % % % % % % % % % Preamble for notes % % % % % % % % % % % % % % % % % % % % % % % %
+\ProvidesPackage{../main/style}
+
+
+% % % % % Sprogpakker og Layout % % % % % % % % %
+\usepackage[left=2.5cm,top=2.0cm,bottom=1.5cm, right=3.0cm]{geometry}
+\usepackage{ulem}
+\usepackage[danish,english]{babel}
+\usepackage[utf8]{inputenc}
+\linespread{1.3}       % simulerer Word 1.5 line spacing
+
+\newcommand{\ve}{\vectorbold}
+% Konstanten e i antikva, jf. ISO 80000-2:2009
+\newcommand{\eu}{\ensuremath{\mathrm{e}}}
+% Den imaginære enhed i antikva, jf. ISO 80000-2:2009
+\newcommand{\iu}{\ensuremath{\mathrm{i}}}
+% Differentialoperatoren i antikva, jf. ISO 80000-2:2009
+\newcommand{\du}{\ensuremath{\mathrm{d}}}
+% % % % % % % % % % Øvrige vigtige pakker % % % % %
+%\usepackage{subfiles}
+\usepackage{graphics}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage{cancel}
+\usepackage{booktabs}
+\usepackage{pdfpages}
+\usepackage{mathpazo}
+\usepackage[section]{placeins}
+\usepackage{caption}
+\usepackage{tocloft}
+\usepackage{bm}
+\usepackage{placeins}
+%\usepackage{subfig}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage[margin=10pt,font=footnotesize,labelfont=bf,labelsep=endash,textfont=it]{subcaption}
+\usepackage{physics}
+\usepackage{subfiles}
+\usepackage{csquotes}
+\usepackage[backend=biber]{biblatex}
+\usepackage{lastpage}
+\usepackage{etoolbox}
+\usepackage{emptypage}
+\usepackage{wrapfig}
+\usepackage[margin=10pt,font=footnotesize,labelfont=bf,labelsep=endash,textfont=it]{caption}
+\usepackage{siunitx}
+\usepackage{enumitem}
+\usepackage{csquotes}
+\usepackage{epstopdf}
+%\usepackage[automark,headsepline,footsepline]{scrpage2}
+%Muliggør 'flere figurer i én' Eksempel på anvendelse (indenfor figure-environment):
+% \subfloat[undercaption 1]{\label{label 1}\includegraphics[bredde 1]{billede 1}}
+% \subfloat[undercaption 2]{\label{label 2}\includegraphics[bredde 2]{billede 2}}
+% \caption{overordnetcaption}
+% \label{overordnet label}
+\usepackage{lscape}
+%Omdanner en del af dokumentet til landscape. Angives med \begin{landscape}
+\usepackage{framed}
+%Sætter en ramme om et område begrænset af \begin{framed} og \end{framed}.
+%Allows footnotes
+\usepackage[T1]{fontenc}
+\usepackage{footnote}
+\usepackage{courier}
+\usepackage{listings}
+\usepackage[framed]{matlab-prettifier}
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{0.3cm}
+% % % % % % COMMANDS % % % % % % % %
+\renewcommand{\vec}[1]{\mathbf{#1}}
+
+\addbibresource{../bib/references.bib}
+
+\makeatletter
+
+\newrobustcmd*{\nobibliography}{%
+  \@ifnextchar[%]
+    {\blx@nobibliography}
+    {\blx@nobibliography[]}}
+
+\def\blx@nobibliography[#1]{}
+
+\appto{\skip@preamble}{\let\printbibliography\nobibliography}
+
+\makeatother
+
+\newenvironment{dualabstract}[1]
+  {\renewcommand{\abstractname}{#1}\begin{abstract}}
+  {\end{abstract}}
+
+  \mathcode`\*="8000
+{\catcode`\*\active\gdef*{\cdot}}

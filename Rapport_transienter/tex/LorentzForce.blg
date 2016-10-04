@@ -1,0 +1,9 @@
+[0] Config.pm:324> INFO - This is Biber 2.1
+[0] Config.pm:327> INFO - Logfile is 'LorentzForce.blg'
+[77] biber-darwin:276> INFO - === Fri May 27, 2016, 16:34:37
+[77] Biber.pm:333> INFO - Reading 'LorentzForce.bcf'
+[199] Biber.pm:645> INFO - Found 1 citekeys in bib section 0
+[257] Biber.pm:2977> INFO - Processing section 0
+[298] Biber.pm:3115> INFO - Looking for bibtex format file '../bib/references.bib' for section 0
+[434] Utils.pm:162> ERROR - Cannot find '../bib/references.bib'!
+[434] Biber.pm:110> INFO - ERRORS: 1

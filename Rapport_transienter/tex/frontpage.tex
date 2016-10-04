@@ -1,0 +1,44 @@
+\documentclass[../main/main.tex]{subfiles}
+\begin{document}
+
+\pagenumbering{roman}
+
+% Saa saetter vi forsiden op
+%\def\maketitle{\thispagestyle{plain}
+% Her saettes logoet
+\AddToShipoutPicture*{\put(0,0){\includegraphics*{../main/nat-en}}}
+\AddToShipoutPicture*{\put(431,663){\includegraphics*[scale=0.88]{../main/sci-logo}}}
+% Der laves en groen linje
+\linethickness{0.2mm}
+\AddToShipoutPicture*{\put(0,670){{\color[cmyk]{.60,0,.80,.40}\line(1,0){600}}}}
+
+\vspace*{40mm}
+
+
+\begin{center}
+{\textsc {\Large \bf Elektromagnetisme og bølger}}\\[0.8cm]
+{\Large Lab rapport}\\[1cm]
+
+{\color[cmyk]{.60,0,.80,.40}\line(1,0){0}\rule{15cm}{0.01cm}}\\[1cm]
+{\LARGE\bf  Transients and RC Circuits}\\ [0.5cm]
+{\color[cmyk]{.60,0,.80,.40}\line(1,0){0}\rule{15cm}{0.01cm}}\\[1cm]
+\end{center}
+
+{\large Authors:}\\
+{\large \hspace*{1cm} \makebox[6cm][l]{Thorsten Bæk}  \hspace{1cm} KU- ID: \makebox[2cm][l]{kmg386}} \\
+{\large \hspace*{1cm} \makebox[6cm][l]{Ryan Yde}   \hspace{1cm} KU- ID: \makebox[2cm][l]{knb392}} \\
+{\large \hspace*{1cm} \makebox[6cm][l]{Jens Kinch}   \hspace{1cm} KU- ID: \makebox[2cm][l]{mqt845}} \\
+
+\selectlanguage{danish}
+\begin{dualabstract}{Abstract}
+
+LILLE ABSTRACT
+
+\end{dualabstract}
+
+{\small This paper includes {\bf \pageref{lastpage}} pages.}
+
+{\small The paper has been handed in online on the DATO }
+
+\normalsize
+\end{document}

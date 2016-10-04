@@ -1,0 +1,9 @@
+[0] Config.pm:324> INFO - This is Biber 2.1
+[0] Config.pm:327> INFO - Logfile is 'main.blg'
+[55] biber-darwin:276> INFO - === Fri May 27, 2016, 16:34:54
+[55] Biber.pm:333> INFO - Reading 'main.bcf'
+[203] Biber.pm:645> INFO - Found 1 citekeys in bib section 0
+[231] Biber.pm:2977> INFO - Processing section 0
+[263] Biber.pm:3115> INFO - Looking for bibtex format file '../bib/references.bib' for section 0
+[402] Utils.pm:162> ERROR - Cannot find '../bib/references.bib'!
+[403] Biber.pm:110> INFO - ERRORS: 1

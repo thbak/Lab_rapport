@@ -26,3 +26,8 @@ Rapport_transienter/main/main.aux
 *.aux
 *.gz
 Rapport_transienter/main/main.fls
+Rapport_transienter/main/main.bcf
+*.fdb_latexmk
+*.log
+*.gz
+*.gz

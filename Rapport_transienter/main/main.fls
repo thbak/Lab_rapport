@@ -1,4 +1,4 @@
-PWD C:/Users/Ejer/Documents/EM2/lab/rapport/Lab_rapport/Rapport_transienter/main
+PWD C:/Users/Ambrusius/OneDrive/Fysik/Labrapport/Lab_rapport/Rapport_transienter/main
 INPUT c:/texlive/2015/texmf.cnf
 INPUT c:/texlive/2015/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -136,8 +136,8 @@ INPUT c:/texlive/2015/texmf-dist/tex/latex/csquotes/csquotes.cfg
 INPUT c:/texlive/2015/texmf-dist/tex/latex/csquotes/csquotes.cfg
 INPUT c:/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT c:/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex.sty
-INPUT c:/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex2.sty
-INPUT c:/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex2.sty
+INPUT c:/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex_.sty
+INPUT c:/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex_.sty
 INPUT c:/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 INPUT c:/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 INPUT c:/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
@@ -154,8 +154,8 @@ INPUT c:/texlive/2015/texmf-dist/tex/latex/biblatex/blx-dm.def
 INPUT c:/texlive/2015/texmf-dist/tex/latex/biblatex/blx-dm.def
 INPUT c:/texlive/2015/texmf-dist/tex/latex/biblatex/blx-compat.def
 INPUT c:/texlive/2015/texmf-dist/tex/latex/biblatex/blx-compat.def
-INPUT c:/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex.def
-INPUT c:/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT c:/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex_.def
+INPUT c:/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex_.def
 INPUT c:/texlive/2015/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
 INPUT c:/texlive/2015/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
 INPUT c:/texlive/2015/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
@@ -451,11 +451,6 @@ INPUT c:/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm
 INPUT ../img/VinVCVR.png
 INPUT ../img/VinVCVR.png
 INPUT ../img/VinVCVR.png
-<<<<<<< HEAD
-INPUT ../img/setup2.png
-INPUT ../img/setup2.png
-INPUT ../img/setup2.png
-=======
 INPUT c:/texlive/2015/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT ../img/setup2.png
@@ -464,13 +459,9 @@ INPUT ../img/setup2.png
 INPUT ../img/VinVudafphi.png
 INPUT ../img/VinVudafphi.png
 INPUT ../img/VinVudafphi.png
->>>>>>> origin/master
 INPUT c:/texlive/2015/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ../img/VinVudafphi.png
-INPUT ../img/VinVudafphi.png
-INPUT ../img/VinVudafphi.png
 INPUT c:/texlive/2015/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
 INPUT c:/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm

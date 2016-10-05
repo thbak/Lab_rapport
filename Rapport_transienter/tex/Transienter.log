@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.6.4)  5 OCT 2016 11:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.6.4)  5 OCT 2016 15:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2529,7 +2529,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 13.
 
 
-Package caption Warning: \label without proper reference on input line 94.
+Package caption Warning: \label without proper reference on input line 97.
 See the caption package documentation for explanation.
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
@@ -2538,11 +2538,11 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 18.
 
 
-Package caption Warning: \label without proper reference on input line 94.
+Package caption Warning: \label without proper reference on input line 97.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 52.
+LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 54.
 
 [1
 
@@ -2550,79 +2550,82 @@ LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 52.
 <../img/setup.png, id=13, 1053.9375pt x 511.9125pt>
 File: ../img/setup.png Graphic file (type png)
  <use ../img/setup.png>
-Package pdftex.def Info: ../img/setup.png used on input line 93.
+Package pdftex.def Info: ../img/setup.png used on input line 96.
 (pdftex.def)             Requested size: 308.71106pt x 149.94275pt.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 95.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 98.
 
 <../img/g_af_omega.png, id=15, 421.575pt x 316.18124pt>
 File: ../img/g_af_omega.png Graphic file (type png)
 
 <use ../img/g_af_omega.png>
-Package pdftex.def Info: ../img/g_af_omega.png used on input line 101.
+Package pdftex.def Info: ../img/g_af_omega.png used on input line 104.
 (pdftex.def)             Requested size: 176.40439pt x 132.3031pt.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 102.
+(Font)              scaled to size 10.42007pt on input line 105.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 102.
+(Font)              scaled to size 7.91925pt on input line 105.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 102.
+(Font)              scaled to size 6.25204pt on input line 105.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 102.
+(Font)              scaled to size 10.42007pt on input line 105.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 102.
+(Font)              scaled to size 7.91925pt on input line 105.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 102.
+(Font)              scaled to size 6.25204pt on input line 105.
 
 <../img/phi_af_wRC.png, id=16, 421.575pt x 316.18124pt>
 File: ../img/phi_af_wRC.png Graphic file (type png)
 
 <use ../img/phi_af_wRC.png>
-Package pdftex.def Info: ../img/phi_af_wRC.png used on input line 108.
+Package pdftex.def Info: ../img/phi_af_wRC.png used on input line 111.
 (pdftex.def)             Requested size: 176.40439pt x 132.3031pt.
  [2] [3 <../img/setup.png> <../img/g_af_omega.png (PNG copy)> <../img/phi_af_wR
 C.png (PNG copy)>]
 
-Package caption Warning: \label without proper reference on input line 94.
+Package caption Warning: \label without proper reference on input line 97.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:setup' on page 4 undefined on input line 154.
+LaTeX Warning: Reference `fig:setup' on page 4 undefined on input line 157.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 163.
+               Default added (so using `tbp') on input line 166.
 
 <../img/VinVCVR.png, id=25, 421.575pt x 316.18124pt>
 File: ../img/VinVCVR.png Graphic file (type png)
  <use ../img/VinVCVR.png>
-Package pdftex.def Info: ../img/VinVCVR.png used on input line 186.
+Package pdftex.def Info: ../img/VinVCVR.png used on input line 189.
 (pdftex.def)             Requested size: 308.71106pt x 231.53888pt.
 
 [4]
 
-Package caption Warning: \label without proper reference on input line 228.
+Package caption Warning: \label without proper reference on input line 231.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:setup2' on page 5 undefined on input line 223.
+LaTeX Warning: Reference `fig:setup2' on page 5 undefined on input line 226.
 
 <../img/setup2.png, id=29, 1053.9375pt x 511.9125pt>
 File: ../img/setup2.png Graphic file (type png)
  <use ../img/setup2.png>
-Package pdftex.def Info: ../img/setup2.png used on input line 227.
+Package pdftex.def Info: ../img/setup2.png used on input line 230.
 (pdftex.def)             Requested size: 308.71106pt x 149.94275pt.
 
 [5 <../img/VinVCVR.png (PNG copy)>]
 
+LaTeX Warning: Reference `lolleren1' on page 6 undefined on input line 241.
+
+
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 240.
+               Default added (so using `tbp') on input line 243.
 
 <../img/VinVudafphi.png, id=33, 421.575pt x 316.18124pt>
 File: ../img/VinVudafphi.png Graphic file (type png)
 
 <use ../img/VinVudafphi.png>
-Package pdftex.def Info: ../img/VinVudafphi.png used on input line 264.
+Package pdftex.def Info: ../img/VinVudafphi.png used on input line 267.
 (pdftex.def)             Requested size: 308.71106pt x 231.53888pt.
  [6 <../img/setup2.png>]
 
@@ -2636,10 +2639,10 @@ Package logreq Info: Writing requests to 'Transienter.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25114 strings out of 493027
- 454802 string characters out of 6137685
- 840242 words of memory out of 5000000
- 28276 multiletter control sequences out of 15000+600000
+ 25118 strings out of 493027
+ 454843 string characters out of 6137685
+ 840266 words of memory out of 5000000
+ 28280 multiletter control sequences out of 15000+600000
  57944 words of font info for 142 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,20n,47p,10435b,1425s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2651,7 +2654,7 @@ thpazo/fplmr.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/mathpazo/fplmri
 .pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texliv
 e/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2015/texmf-di
 st/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Transienter.pdf (7 pages, 235058 bytes).
+Output written on Transienter.pdf (7 pages, 235171 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream

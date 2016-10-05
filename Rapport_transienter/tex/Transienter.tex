@@ -69,7 +69,8 @@ If we write \( Z \) in polar coordinates we get the form \( Z = \abs{Z} e^{i \ph
 We want to find the voltage drop over the resistance
 
 \begin{equation}
-	\tilde{U}_R(t) = R \tilde{I}(t) = R \frac{\tilde{U}(t)}{ \abs{Z}} e^{-i \phi}
+    \label{utildeR}
+	\tilde{U}_R(t) = R \tilde{I}(t) = R \frac{\tilde{U}(t)}{Z} = R \frac{\tilde{U}(t)}{ \abs{Z}} e^{-i \phi}
 \end{equation}
 
 We know that our alternating complex voltage is \( \tilde{U}(t) = V_0 e^{-i \omega t } \).
@@ -113,12 +114,12 @@ Furthermore we can anticipate a behaviour for \( \phi \) as depicted in Fig.\ref
   \end{subfigure}
   \caption{Scaling factor and \( \phi \) for the high pass filter}
 \end{figure}
-\subsubsection{High pass filter}
+\subsubsection{Low pass filter}
 The potential over the capacitor:
 \[
 \tilde{U}_C(t) = \tilde{U}(t)-\tilde{U}_R(t)
 \]
-using the expression for \(\tilde{U}_R\) from before:
+using the expression for \(\tilde{U}_R\) from Eq. \ref{utildeR}:
 \[
 \begin{split}
 \tilde{U}_C(t) &= \left(1-\frac{R}{R+\frac{i}{\omega C}}\right)\tilde{U}(t)  \\
@@ -128,7 +129,7 @@ using the expression for \(\tilde{U}_R\) from before:
 \end{split}
 \]
 Substituting
-\( A = \left(\frac{\left(\frac{1}{\omega C}\right)^2}{R^2+\left(\frac{1}{\omega C}\right)^2}\right) \) and
+\(A = \left(\frac{\left(\frac{1}{\omega C}\right)^2}{R^2+\left(\frac{1}{\omega C}\right)^2}\right) \) and
 \(B = \left(\frac{\frac{R}{\omega C}}{R^2+\left(\frac{1}{\omega C}\right)^2}\right)\)
 yields:
 \(

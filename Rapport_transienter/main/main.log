@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.3.13)  5 OCT 2016 13:06
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.6.4)  5 OCT 2016 11:46
+>>>>>>> origin/master
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2488,7 +2492,11 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 13.
 
 
+<<<<<<< HEAD
 Package caption Warning: \label without proper \caption on input line 93.
+=======
+Package caption Warning: \label without proper reference on input line 94.
+>>>>>>> origin/master
 See the caption package documentation for explanation.
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
@@ -2497,19 +2505,34 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 18.
 
 
+<<<<<<< HEAD
 Package caption Warning: \label without proper \caption on input line 93.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 51.
+=======
+Package caption Warning: \label without proper reference on input line 94.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 52.
+>>>>>>> origin/master
 
 [1] <../img/setup.png, id=37, 1053.9375pt x 511.9125pt>
 File: ../img/setup.png Graphic file (type png)
  <use ../img/setup.png>
+<<<<<<< HEAD
 Package pdftex.def Info: ../img/setup.png used on input line 92.
 (pdftex.def)             Requested size: 308.71106pt x 149.94275pt.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 94.
+=======
+Package pdftex.def Info: ../img/setup.png used on input line 93.
+(pdftex.def)             Requested size: 308.71106pt x 149.94275pt.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 95.
+>>>>>>> origin/master
 
 <../img/g_af_omega.png, id=39, 421.575pt x 316.18124pt>
 File: ../img/g_af_omega.png Graphic file (type png)
@@ -2536,6 +2559,7 @@ File: ../img/phi_af_wRC.png Graphic file (type png)
 <use ../img/phi_af_wRC.png>
 Package pdftex.def Info: ../img/phi_af_wRC.png used on input line 108.
 (pdftex.def)             Requested size: 176.40439pt x 132.3031pt.
+<<<<<<< HEAD
  [2]
 
 Package caption Warning: \label without proper \caption on input line 93.
@@ -2554,13 +2578,39 @@ File: ../img/VinVCVR.png Graphic file (type png)
 
 <use ../img/VinVCVR.png>
 Package pdftex.def Info: ../img/VinVCVR.png used on input line 149.
-(pdftex.def)             Requested size: 308.71106pt x 231.53888pt.
- [4 <../img/VinVCVR.png (PNG copy)>]
+=======
+ [2] [3 <../img/setup.png> <../img/g_af_omega.png (PNG copy)> <../img/phi_af_wR
+C.png (PNG copy)>]
 
-Package caption Warning: \label without proper \caption on input line 191.
+Package caption Warning: \label without proper reference on input line 94.
 See the caption package documentation for explanation.
 
 
+LaTeX Warning: Reference `fig:setup' on page 4 undefined on input line 154.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 163.
+
+<../img/VinVCVR.png, id=49, 421.575pt x 316.18124pt>
+File: ../img/VinVCVR.png Graphic file (type png)
+ <use ../img/VinVCVR.png>
+Package pdftex.def Info: ../img/VinVCVR.png used on input line 186.
+>>>>>>> origin/master
+(pdftex.def)             Requested size: 308.71106pt x 231.53888pt.
+ [4 <../img/VinVCVR.png (PNG copy)>]
+
+<<<<<<< HEAD
+Package caption Warning: \label without proper \caption on input line 191.
+See the caption package documentation for explanation.
+=======
+[4]
+>>>>>>> origin/master
+
+Package caption Warning: \label without proper reference on input line 228.
+See the caption package documentation for explanation.
+
+<<<<<<< HEAD
 LaTeX Warning: Reference `fig:setup2' on page 5 undefined on input line 186.
 
 <../img/setup2.png, id=53, 1053.9375pt x 511.9125pt>
@@ -2582,6 +2632,29 @@ Package pdftex.def Info: ../img/VinVudafphi.png used on input line 227.
 (pdftex.def)             Requested size: 308.71106pt x 231.53888pt.
  [6 <../img/VinVudafphi.png (PNG copy)>]) [7]
 
+=======
+
+LaTeX Warning: Reference `fig:setup2' on page 5 undefined on input line 223.
+
+<../img/setup2.png, id=53, 1053.9375pt x 511.9125pt>
+File: ../img/setup2.png Graphic file (type png)
+ <use ../img/setup2.png>
+Package pdftex.def Info: ../img/setup2.png used on input line 227.
+(pdftex.def)             Requested size: 308.71106pt x 149.94275pt.
+
+[5 <../img/VinVCVR.png (PNG copy)>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 240.
+
+<../img/VinVudafphi.png, id=57, 421.575pt x 316.18124pt>
+File: ../img/VinVudafphi.png Graphic file (type png)
+
+<use ../img/VinVudafphi.png>
+Package pdftex.def Info: ../img/VinVudafphi.png used on input line 264.
+(pdftex.def)             Requested size: 308.71106pt x 231.53888pt.
+ [6 <../img/setup2.png>]) [7 <../img/VinVudafphi.png (PNG copy)>] 
+>>>>>>> origin/master
 AED: lastpage setting LastPage
 (./main.aux)
 
@@ -2592,11 +2665,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  24832 strings out of 493054
  447798 string characters out of 6138327
  858559 words of memory out of 5000000
  27944 multiletter control sequences out of 15000+600000
  70873 words of font info for 166 fonts, out of 8000000 for 9000
+=======
+ 25180 strings out of 493027
+ 455402 string characters out of 6137685
+ 839996 words of memory out of 5000000
+ 28310 multiletter control sequences out of 15000+600000
+ 71173 words of font info for 167 fonts, out of 8000000 for 9000
+>>>>>>> origin/master
  1141 hyphenation exceptions out of 8191
  51i,20n,45p,10404b,1844s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2015/texm
@@ -2607,7 +2688,11 @@ thpazo/fplmr.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/mathpazo/fplmri
 .pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texliv
 e/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2015/texmf-di
 st/fonts/type1/urw/palatino/uplri8a.pfb>
+<<<<<<< HEAD
 Output written on main.pdf (8 pages, 267726 bytes).
+=======
+Output written on main.pdf (8 pages, 271998 bytes).
+>>>>>>> origin/master
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream

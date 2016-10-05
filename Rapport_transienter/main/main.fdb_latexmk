@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1475674110 "main.bcf" "main.bbl" "main" 1475674459
+["biber main"] 1475674110 "main.bcf" "main.bbl" "main" 1475675388
   "../bib/references.bib" 0 -1 0 ""
-  "main.bcf" 1475674458 90230 aff2c151aebf3d7d46f461292da3206c ""
+  "main.bcf" 1475675386 90230 aff2c151aebf3d7d46f461292da3206c ""
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1475674456 "main.tex" "main.pdf" "main" 1475674459
+["pdflatex"] 1475675384 "main.tex" "main.pdf" "main" 1475675388
   "../img/VinVCVR.png" 1475594277 25074 9c48c7c84235b4c7b07b7c2fc8808367 ""
   "../img/VinVudafphi.png" 1475594277 21712 571ae36a060e0344b94bd4154ad8764c ""
   "../img/g_af_omega.png" 1475594277 15268 2fe11b41413d7822b0e58e543b41fc23 ""
@@ -15,7 +15,7 @@
   "../main/nat-en.pdf" 1475594277 12664 f06eb3a3bd096f094d035ae3d55566e6 ""
   "../main/sci-logo.eps" 1475594277 65065 a755ab0cc955a4fce33d8649d0609c6a ""
   "../main/style.sty" 1475594277 2977 53cea92bfc7711f880f476f7b6ad7466 ""
-  "../tex/Transienter.tex" 1475674431 13352 1c39e13b43b975be5f967ef13ee6f0f4 ""
+  "../tex/Transienter.tex" 1475675377 13367 54c07cdfad4753fe0ecf5bbcdf952694 ""
   "../tex/frontpage.tex" 1475594277 1395 499aa2338cf25ed7c3564ee2d7e1c72d ""
   "c:/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc" 1464994817 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1464995092 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -194,15 +194,15 @@
   "c:/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1464997568 1889162 7f72bc45d47ef68a08b1eb71d91f7414 ""
   "c:/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1464997648 3856039 db0e6fdb0f26fa45ee5def8975e6ef0f ""
   "c:/texlive/2015/texmf.cnf" 1464997555 497 7277663fd190ea5a4fe922b182dc7be2 ""
-  "main.aux" 1475674458 3235 3e13c105eb702f59e0b8627acb42e602 ""
+  "main.aux" 1475675386 3236 aab107b09b0403a19b48b5a4d894f6cf ""
   "main.bbl" 1475657789 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
-  "main.run.xml" 1475674458 2343 157fc19b19e88e694d2be0e91f12e703 ""
+  "main.run.xml" 1475675386 2343 157fc19b19e88e694d2be0e91f12e703 ""
   "main.tex" 1475657658 275 97f3d3dbbdcfc1cfbf2d14351b2985d8 ""
   (generated)
-  "main.toc"
-  "main.bcf"
-  "main.log"
   "main.run.xml"
-  "main.blg"
-  "main.aux"
   "main.pdf"
+  "main.bcf"
+  "main.aux"
+  "main.log"
+  "main.blg"
+  "main.toc"

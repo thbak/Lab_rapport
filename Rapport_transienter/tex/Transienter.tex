@@ -36,7 +36,7 @@ Solving this differential equation with the boundary condition that \( I(0) = \m
 Using \( U = RI \) we can find the voltage drop over the resistor
 
 \begin{equation}
-  \label{lolleren}
+  \label{lolleren1}
   U_R = \mathcal{E} e^{-\frac{1}{RC} t}
 \end{equation}
 
@@ -115,31 +115,31 @@ Furthermore we can anticipate a behaviour for \( \phi \) as depicted in Fig.\ref
   \caption{Scaling factor and \( \phi \) for the high pass filter}
 \end{figure}
 \subsubsection{Low pass filter}
-The potential over the capacitor:
+The potential over the capacitor is
 \[
 \tilde{U}_C(t) = \tilde{U}(t)-\tilde{U}_R(t)
 \]
-using the expression for \(\tilde{U}_R\) from Eq. \ref{utildeR}:
+Using the expression for \(\tilde{U}_R\) from Eq. \ref{utildeR} we get
 \[
 \begin{split}
-\tilde{U}_C(t) &= \left(1-\frac{R}{R+\frac{i}{\omega C}}\right)\tilde{U}(t)  \\
-               &= \left(1-\frac{R(R-\frac{i}{\omega C})}{R^2+\left(\frac{1}{\omega C}\right)^2}\right)\tilde{U}(t)\\
-               &= \left(\frac{R^2+\left(\frac{1}{\omega C}\right)^2-R(R-\frac{i}{\omega C})}{R^2+\left(\frac{1}{\omega C}\right)^2}\right)\tilde{U}(t)\\
+\tilde{U}_C(t) %&= \left(1-\frac{R}{R+\frac{i}{\omega C}}\right)\tilde{U}(t)  \\
+               %&= \left(1-\frac{R(R-\frac{i}{\omega C})}{R^2+\left(\frac{1}{\omega C}\right)^2}\right)\tilde{U}(t)\\
+               %&= \left(\frac{R^2+\left(\frac{1}{\omega C}\right)^2-R(R-\frac{i}{\omega C})}{R^2+\left(\frac{1}{\omega C}\right)^2}\right)\tilde{U}(t)\\
                &= \left(\frac{\left(\frac{1}{\omega C}\right)^2+i\frac{R}{\omega C}}{R^2+\left(\frac{1}{\omega C}\right)^2}\right)\tilde{U}(t)
 \end{split}
 \]
 Substituting
 \(A = \left(\frac{\left(\frac{1}{\omega C}\right)^2}{R^2+\left(\frac{1}{\omega C}\right)^2}\right) \) and
 \(B = \left(\frac{\frac{R}{\omega C}}{R^2+\left(\frac{1}{\omega C}\right)^2}\right)\)
-yields:
+yields
 \(
 \tilde{U}_C(t) = (A + iB)\tilde{U}(t)
 \)
-which we can take the real part of to get an expression for \(U_C(t)\):
+of which we can take the real part to get an expression for \(U_C(t)\)
 \[
 Re[\tilde{U}_C] = \sqrt{A^2+B^2}V_0 \cos\left(\omega t-\arctan\left(\frac{B}{A}\right)\right)
 \]
-which, with the values of \(A\) and \(B\) is:
+which, with the values of \(A\) and \(B\) becomes
 \[
 U_C(t) = \frac{1}{\sqrt{(\omega R C)^2 +1}}V_0 \cos\left(\omega t-\arctan\left(\omega RC\right)\right)
 \]
@@ -184,7 +184,7 @@ In Fig.\ref{fig:VinVCVR} we see the input voltage and the corresponding voltage 
 \( V_C \) represents the voltage drop over the capacitor, and \( V_R \) the voltage drop over the resistor.
 
 \begin{figure}[!ht]
-  \caption{Setup for high pass filter}
+  \caption{}
   \centering
     \includegraphics[width=0.7\textwidth]{../img/VinVCVR.png}
     \label{fig:VinVCVR}
@@ -193,7 +193,7 @@ In Fig.\ref{fig:VinVCVR} we see the input voltage and the corresponding voltage 
 \subsection*{High pass filter, sine wave}
 
 We replace the pulse generator with a function generator to produce an alternating current in the form of a sine wave.
-The frequency is set as close as possible to \(  f = \omega_0 / 2 \pi = 340.4 \si{\hertz} \), where \( omega_0 \) is the angular frequency for the resonance, and the amplitude adjusted so that the input voltage measured on the Picoscope is \( 1 \si{\volt} \) peak-to-peak.
+The frequency is set as close as possible to \(  f = \omega_0 / 2 \pi = 340.4 \si{\hertz} \), where \( \omega_0 \) is the angular frequency for the resonance, and the amplitude adjusted so that the input voltage measured on the Picoscope is \( 1 \si{\volt} \) peak-to-peak.
 
 We then alternate the frequency from around \( 100 \si{\hertz} \) to \( 1000 \si{\hertz} \) and measure the output voltage and phase shift.
 For each frequency we save the data in a txt file for later processing.

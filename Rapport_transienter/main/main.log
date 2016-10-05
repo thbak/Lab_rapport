@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.6.4)  5 OCT 2016 15:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.6.4)  5 OCT 2016 15:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2613,15 +2613,16 @@ File: ../img/phi_af_wRC.png Graphic file (type png)
 <use ../img/phi_af_wRC.png>
 Package pdftex.def Info: ../img/phi_af_wRC.png used on input line 111.
 (pdftex.def)             Requested size: 176.40439pt x 132.3031pt.
- [2] [3 <../img/setup.png> <../img/g_af_omega.png (PNG copy)> <../img/phi_af_wR
-C.png (PNG copy)>]
+ [2]
 
 Package caption Warning: \label without proper reference on input line 97.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:setup' on page 4 undefined on input line 157.
+LaTeX Warning: Reference `fig:setup' on page 3 undefined on input line 157.
 
+[3 <../img/setup.png> <../img/g_af_omega.png (PNG copy)> <../img/phi_af_wRC.png
+ (PNG copy)>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 166.
@@ -2646,21 +2647,19 @@ File: ../img/setup2.png Graphic file (type png)
 Package pdftex.def Info: ../img/setup2.png used on input line 230.
 (pdftex.def)             Requested size: 308.71106pt x 149.94275pt.
 
-[5 <../img/VinVCVR.png (PNG copy)>]
-
-LaTeX Warning: Reference `lolleren1' on page 6 undefined on input line 241.
-
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 243.
 
-<../img/VinVudafphi.png, id=57, 421.575pt x 316.18124pt>
+[5 <../img/VinVCVR.png (PNG copy)> <../img/setup2.png>]
+<../img/VinVudafphi.png, id=58, 421.575pt x 316.18124pt>
 File: ../img/VinVudafphi.png Graphic file (type png)
 
 <use ../img/VinVudafphi.png>
 Package pdftex.def Info: ../img/VinVudafphi.png used on input line 267.
 (pdftex.def)             Requested size: 308.71106pt x 231.53888pt.
- [6 <../img/setup2.png>]) [7 <../img/VinVudafphi.png (PNG copy)>] 
+ [6 <../img/VinVudafphi.png (PNG copy)>]) [7]
+
 AED: lastpage setting LastPage
 (./main.aux)
 
@@ -2671,10 +2670,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25184 strings out of 493027
- 455443 string characters out of 6137685
+ 25183 strings out of 493027
+ 455433 string characters out of 6137685
  840020 words of memory out of 5000000
- 28314 multiletter control sequences out of 15000+600000
+ 28313 multiletter control sequences out of 15000+600000
  71173 words of font info for 167 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,20n,45p,10404b,1844s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2686,7 +2685,7 @@ thpazo/fplmr.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/mathpazo/fplmri
 .pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texliv
 e/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2015/texmf-di
 st/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (8 pages, 272228 bytes).
+Output written on main.pdf (8 pages, 271122 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream

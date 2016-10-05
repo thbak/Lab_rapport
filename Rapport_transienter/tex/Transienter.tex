@@ -36,6 +36,7 @@ Solving this differential equation with the boundary condition that \( I(0) = \m
 Using \( U = RI \) we can find the voltage drop over the resistor
 
 \begin{equation}
+  \label{lolleren}
   U_R = \mathcal{E} e^{-\frac{1}{RC} t}
 \end{equation}
 
@@ -43,10 +44,12 @@ If we want to find the voltage drop over the capacitor, we know that \( U_C = Q 
 Solving this with the boundary condition \( U_C(0) = 0 \) we get
 
 \begin{equation}
+  \label{lolleren2}
   U_C = \mathcal{E} \left( 1 - e^{- \frac{1}{RC} t} \right)
 \end{equation}
 
 \subsection*{Alternating current}
+\subsubsection{High pass filter}
 
 For a RC-circuit as in Fig.\ref{fig:setup} the following apply according to Kirchhoffs laws
 
@@ -82,10 +85,10 @@ For large \( \omega \), \( g \) will approach 1, so almost no damping.
 
 The phase shift is \( \phi = \arctan( \frac{1}{ \omega RC })\).
 
-In this experiment we will work with a resistance \( R = 1000 \Omega \) and capacitance \( C = 47 \si{\nano\farad} \).
-We can anticipate a behavior for \( g \) as a function of \( \omega \) as depicted in Fig.\ref{fig:g_af_omega}.
+In this experiment we will work with a resistance \( R = 10 k\Omega \) and capacitance \( C = 47 \si{\nano\farad} \).
+We can anticipate a behavior for \( g \) as a function of \( \omega \) as depicted in Fig.\ref{fig:phi_af_omega}.
 
-Furthermore we can anticipate a behaviour for \( \phi \) as depicted in Fig.\ref{fig:phi_af_omega}
+Furthermore we can anticipate a behaviour for \( \phi \) as depicted in Fig.\ref{fig:g_af_omega}
 
 \begin{figure}[!ht]
   \centering
@@ -95,7 +98,6 @@ Furthermore we can anticipate a behaviour for \( \phi \) as depicted in Fig.\ref
 \end{figure}
 
 \begin{figure}[!ht]
-  \caption{}
   \centering
   \begin{subfigure}[b]{0.4\textwidth}
       \includegraphics[width=\textwidth]{../img/g_af_omega.png}
@@ -111,6 +113,43 @@ Furthermore we can anticipate a behaviour for \( \phi \) as depicted in Fig.\ref
   \end{subfigure}
   \caption{Scaling factor and \( \phi \) for the high pass filter}
 \end{figure}
+\subsubsection{High pass filter}
+The potential over the capacitor:
+\[
+\tilde{U}_C(t) = \tilde{U}(t)-\tilde{U}_R(t)
+\]
+using the expression for \(\tilde{U}_R\) from before:
+\[
+\begin{split}
+\tilde{U}_C(t) &= \left(1-\frac{R}{R+\frac{i}{\omega C}}\right)\tilde{U}(t)  \\
+               &= \left(1-\frac{R(R-\frac{i}{\omega C})}{R^2+\left(\frac{1}{\omega C}\right)^2}\right)\tilde{U}(t)\\
+               &= \left(\frac{R^2+\left(\frac{1}{\omega C}\right)^2-R(R-\frac{i}{\omega C})}{R^2+\left(\frac{1}{\omega C}\right)^2}\right)\tilde{U}(t)\\
+               &= \left(\frac{\left(\frac{1}{\omega C}\right)^2+i\frac{R}{\omega C}}{R^2+\left(\frac{1}{\omega C}\right)^2}\right)\tilde{U}(t)
+\end{split}
+\]
+Substituting
+\( A = \left(\frac{\left(\frac{1}{\omega C}\right)^2}{R^2+\left(\frac{1}{\omega C}\right)^2}\right) \) and
+\(B = \left(\frac{\frac{R}{\omega C}}{R^2+\left(\frac{1}{\omega C}\right)^2}\right)\)
+yields:
+\(
+\tilde{U}_C(t) = (A + iB)\tilde{U}(t)
+\)
+which we can take the real part of to get an expression for \(U_C(t)\):
+\[
+Re[\tilde{U}_C] = \sqrt{A^2+B^2}V_0 \cos\left(\omega t-\arctan\left(\frac{B}{A}\right)\right)
+\]
+which, with the values of \(A\) and \(B\) is:
+\[
+U_C(t) = \frac{1}{\sqrt{(\omega R C)^2 +1}}V_0 \cos\left(\omega t-\arctan\left(\omega RC\right)\right)
+\]
+
+
+
+
+
+
+
+
 
 \section*{Setup}
 
@@ -130,7 +169,7 @@ For the following experiments we make use of a resistor and capacitor with the c
 \begin{tabular}{|l|l|l|}
 \hline
           & Value                         & Uncertainty                  \\ \hline
-Resistor  & \( 9.947 \si{\kilo\ohm} \)  & \( 0.001 \si{\kilo\ohm} \) \\ \hline
+Resistor  & \( 9.947 \si{\kilo\ohm} \)  & \( 0.003 \si{\kilo\ohm} \) \\ \hline
 Capacitor & \( 47.2 \si{\nano\farad} \) & \( 0.1 \si{\nano\farad} \) \\ \hline
 \end{tabular}
 \end{table}
@@ -138,7 +177,7 @@ Capacitor & \( 47.2 \si{\nano\farad} \) & \( 0.1 \si{\nano\farad} \) \\ \hline
 \subsection*{High pass and low pass filter, square wave}
 
 We know that the capacitor will be charged with time, so we should be able to find a frequency of the square wave where the capacitor is almost fully charged and fully discharged within the time of the pulse width.
-As the capacitor is charged, the voltage drop over the resistor will increase, and decrease as the capacitor is discharged.
+As the capacitor is charged, the voltage drop over the resistor will decrease, and increase as the capacitor is discharged.
 When a useful frequency and pulse width is determined, we get a good representation of the curve of the voltage drop over the resistor or capacitor, depending on the current system configuration.
 In Fig.\ref{fig:VinVCVR} we see the input voltage and the corresponding voltage drop over the capacitor and resistor.
 \( V_C \) represents the voltage drop over the capacitor, and \( V_R \) the voltage drop over the resistor.
@@ -198,7 +237,7 @@ We perform the same measurements for the low pass filter, although the span for 
 
 \subsection*{Square wave}
 
-To determine the time constant \( RC \) we fit the measured time dependent voltage drop over the resistor applying Eq.3.
+To determine the time constant \( RC \) we fit the measured time dependent voltage drop over the resistor applying Eq.\ref{lolleren1} and Eq. \ref{lolleren2}
 
 \begin{table}[]
 \centering
@@ -218,7 +257,7 @@ FIGUR MED FIT OG PARAMETRE
 \subsection*{Alternating current}
 
 We want to check the scaling factor \( g \) by plotting the output voltage as a function of \( \omega \).
-Since the fit is an exponential function and the theoretically derived \( g \) is in another form, fitting an exponential curve to the measured data will make comparison difficult. So we will plot the measured output voltage againt the theoretical \( g \cdot V_{in} \), \( V_{in} \) begin the experimental value, and do a \( \chi^2 \) test to determine whether or not the measured values are within a acceptable range of the theory.
+Since the fit is an exponential function and the theoretically derived \( g \) is in another form, fitting an exponential curve to the measured data will make comparison difficult. So we will plot the measured output voltage against the theoretical \( g \cdot V_{in} \), \( V_{in} \) begin the experimental value, and do a \( \chi^2 \) test to determine whether or not the measured values are within an acceptable range of the theory.
 We arrive at the results in Table.CHI.I.ANDEN.FOR.G with a visual representation in Fig.\ref{fig:VinVudafphi}
 
 \begin{figure}[!ht]

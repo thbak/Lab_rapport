@@ -1,9 +1,9 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
 [0] Config.pm:343> INFO - Logfile is 'Transienter.blg'
-[32] biber-MSWIN32:287> INFO - === 
-[47] Biber.pm:347> INFO - Reading 'Transienter.bcf'
-[133] Biber.pm:741> INFO - Found 0 citekeys in bib section 0
-[133] Utils.pm:147> WARN - The file 'Transienter.bcf' does not contain any citations!
-[145] bbl.pm:519> INFO - Writing 'Transienter.bbl' with encoding 'UTF-8'
-[145] bbl.pm:615> INFO - Output to Transienter.bbl
-[146] Biber.pm:108> INFO - WARNINGS: 1
+[36] biber-MSWIN32:287> INFO - === 
+[51] Biber.pm:347> INFO - Reading 'Transienter.bcf'
+[132] Biber.pm:741> INFO - Found 0 citekeys in bib section 0
+[132] Utils.pm:147> WARN - The file 'Transienter.bcf' does not contain any citations!
+[142] bbl.pm:519> INFO - Writing 'Transienter.bbl' with encoding 'UTF-8'
+[142] bbl.pm:615> INFO - Output to Transienter.bbl
+[143] Biber.pm:108> INFO - WARNINGS: 1

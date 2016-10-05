@@ -1,20 +1,21 @@
 # Fdb version 3
-["biber main"] 1475594512 "main.bcf" "main.bbl" "main" 1475595434
+["biber main"] 1475657957 "main.bcf" "main.bbl" "main" 1475660803
   "../bib/references.bib" 0 -1 0 ""
-  "main.bcf" 1475595433 90230 aff2c151aebf3d7d46f461292da3206c ""
+  "main.bcf" 1475660803 90230 aff2c151aebf3d7d46f461292da3206c ""
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1475595431 "main.tex" "main.pdf" "main" 1475595434
+  "main.blg"
+["pdflatex"] 1475660801 "main.tex" "main.pdf" "main" 1475660803
   "../img/VinVCVR.png" 1475594277 25074 9c48c7c84235b4c7b07b7c2fc8808367 ""
   "../img/VinVudafphi.png" 1475594277 21712 571ae36a060e0344b94bd4154ad8764c ""
   "../img/g_af_omega.png" 1475594277 15268 2fe11b41413d7822b0e58e543b41fc23 ""
   "../img/phi_af_wRC.png" 1475594277 13922 2c68ef55c4e80f9c806d622d44d3e32a ""
   "../img/setup.png" 1475594277 28670 5e07bc189048f0abf4aed83ff25915ea ""
+  "../img/setup2.png" 1475615409 30933 371dea373279355b1f1a3aa021e570e3 ""
   "../main/nat-en.pdf" 1475594277 12664 f06eb3a3bd096f094d035ae3d55566e6 ""
   "../main/sci-logo.eps" 1475594277 65065 a755ab0cc955a4fce33d8649d0609c6a ""
   "../main/style.sty" 1475594277 2977 53cea92bfc7711f880f476f7b6ad7466 ""
-  "../tex/Transienter.tex" 1475595419 9734 0b6f08f0727126bcc5d27a5363bd10cb ""
+  "../tex/Transienter.tex" 1475660798 13210 76c8ccfd0a75d9b89b2b5ec9a87003fc ""
   "../tex/frontpage.tex" 1475594277 1395 499aa2338cf25ed7c3564ee2d7e1c72d ""
   "c:/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc" 1464994817 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1464995092 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -193,14 +194,14 @@
   "c:/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1464997568 1889162 7f72bc45d47ef68a08b1eb71d91f7414 ""
   "c:/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1464997648 3856039 db0e6fdb0f26fa45ee5def8975e6ef0f ""
   "c:/texlive/2015/texmf.cnf" 1464997555 497 7277663fd190ea5a4fe922b182dc7be2 ""
-  "main.aux" 1475595433 2512 cfaebd76ba212eb555629257bb4aa32b ""
-  "main.bbl" 1475594277 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
-  "main.run.xml" 1475595433 2343 157fc19b19e88e694d2be0e91f12e703 ""
-  "main.tex" 1475594277 275 97f3d3dbbdcfc1cfbf2d14351b2985d8 ""
+  "main.aux" 1475660803 3152 08f4576b5b021d857e47ac9ba90ccec3 ""
+  "main.bbl" 1475657789 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
+  "main.run.xml" 1475660803 2343 157fc19b19e88e694d2be0e91f12e703 ""
+  "main.tex" 1475657658 275 97f3d3dbbdcfc1cfbf2d14351b2985d8 ""
   (generated)
-  "main.log"
   "main.toc"
+  "main.bcf"
+  "main.aux"
+  "main.log"
   "main.pdf"
   "main.run.xml"
-  "main.aux"
-  "main.bcf"
